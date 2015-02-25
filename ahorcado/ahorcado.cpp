@@ -338,14 +338,14 @@ int main(int argc,char**argv){
 	cout<<"letras errones: "<<endl;
 	for(int i=0; i<contadorL; i++){
 		if (isalpha(letras[i]))
-		cout<<letras[i]<<"	";
+			cout<<letras[i]<<"	";
 	}
 	cout<<endl;
 
 	cout<<"palabras errones: "<<endl;
 	for(int i=0; i<contadorP; i++){
 		if(!(completas[i]=='\0'))
-		cout<<completas[i]<<"	";
+			cout<<completas[i]<<"	";
 	}
 
 	cout<<endl<<"Desea volver a jugar(s/n): ";
